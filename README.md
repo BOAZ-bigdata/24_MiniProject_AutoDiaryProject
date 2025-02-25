@@ -48,7 +48,6 @@ cd 24_MiniProject_AutoDiaryProject/code
 # 필요한 패키지 설치
 pip install -r requirements.txt
 
-
 # 실행
 python main.py
 ```
