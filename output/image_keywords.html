@@ -1,0 +1,325 @@
+
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+            th, td {
+                border: 1px solid black;
+                padding: 8px;
+                text-align: center;
+            }
+            img {
+                max-width: 300px;
+                max-height: 300px;
+            }
+            .stats {
+                margin: 20px 0;
+                padding: 10px;
+                background-color: #f0f0f0;
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="stats">
+            <h2>통계</h2>
+            <p>총 이미지 개수: 41개</p>
+            <p>유사한 경우(O): 25개 (61.0%)</p>
+            <p>유사하지 않은 경우(X): 16개 (39.0%)</p>
+        </div>
+        <table>
+            <tr>
+                <th>이미지</th>
+                <th>BLIP-2 캡셔닝</th>
+                <th>키워드</th>
+                <th>정성평가</th>
+            </tr>
+    
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/01_눈 오는 날.jpg" alt="01_눈 오는 날.jpg"></td>
+                <td>a snowy scene with a bench and a building</td>
+                <td>눈</td>
+                <td>O</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/02_점심.jpg" alt="02_점심.jpg"></td>
+                <td>a white plate with a sandwich and coffee</td>
+                <td>샌드위치, 커피, 노트북</td>
+                <td>X</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/03_강의.jpg" alt="03_강의.jpg"></td>
+                <td>a whiteboard with a diagram on it</td>
+                <td>강의</td>
+                <td>X</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/04_카페.jpg" alt="04_카페.jpg"></td>
+                <td>a coffee cup with a spoon and spoon holder on a door</td>
+                <td>커피</td>
+                <td>O</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/05_저녁.jpg" alt="05_저녁.jpg"></td>
+                <td>a table with two glasses of beer and chopsticks</td>
+                <td>맥주</td>
+                <td>O</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/01_비행기.jpg" alt="01_비행기.jpg"></td>
+                <td>a person sitting on an airplane with a bag</td>
+                <td>비행기, 앉아있다</td>
+                <td>O</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/02_놀이공원.jpg" alt="02_놀이공원.jpg"></td>
+                <td>a picture of a roller coaster with people on it</td>
+                <td>어트랙션(놀이기구)</td>
+                <td>O</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/03_가챠.jpg" alt="03_가챠.jpg"></td>
+                <td>two people holding up three different colored balls</td>
+                <td>가챠(랜덤뽑기..?)</td>
+                <td>X</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/04_저녁.jpg" alt="04_저녁.jpg"></td>
+                <td>a tray of sushi and a beer on a table</td>
+                <td>초밥</td>
+                <td>O</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/05_스티커사진.jpg" alt="05_스티커사진.jpg"></td>
+                <td>a sticker book with pictures of girls on it</td>
+                <td>사진</td>
+                <td>O</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/1st_img.jpg" alt="1st_img.jpg"></td>
+                <td>a group of people sitting on a train</td>
+                <td>음식 관련 단어, 기차</td>
+                <td>X</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/2nd_img.jpg" alt="2nd_img.jpg"></td>
+                <td>a large amusement ride</td>
+                <td>놀이기구</td>
+                <td>O</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/3rd_img.jpg" alt="3rd_img.jpg"></td>
+                <td>a roller coaster ride at an amusement park</td>
+                <td>놀이기구에 타고 있는 사람</td>
+                <td>X</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/4th_img.jpg" alt="4th_img.jpg"></td>
+                <td>a group of young women posing for a picture in front of a roller coaster</td>
+                <td>놀이공원에서의 단체 사진</td>
+                <td>O</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/5th.jpg" alt="5th.jpg"></td>
+                <td>a group of people sitting on a couch in a living room</td>
+                <td>숙소, 누워있는 모습</td>
+                <td>X</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/image1.jpg" alt="image1.jpg"></td>
+                <td>a person taking a picture of a building</td>
+                <td>건물 앞을 걷는 모습</td>
+                <td>X</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/image2.jpg" alt="image2.jpg"></td>
+                <td>a woman sitting at a desk with a laptop and a bag</td>
+                <td>연구실, 노트북, 가방</td>
+                <td>X</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/image3.jpg" alt="image3.jpg"></td>
+                <td>a table with bowls of food and a spoon</td>
+                <td>김밥, 라면</td>
+                <td>X</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/image4.jpg" alt="image4.jpg"></td>
+                <td>a person sitting on a chair looking out a window</td>
+                <td>앉아있는 모습, 창밖 뷰</td>
+                <td>O</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/image5.jpg" alt="image5.jpg"></td>
+                <td>two people sitting at a table with a laptop</td>
+                <td>노트북, 공부하는 모습</td>
+                <td>X</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/01_오키나와비행기.jpg" alt="01_오키나와비행기.jpg"></td>
+                <td>a view of the wing of an airplane from inside the plane</td>
+                <td>비행기 안이라는 장소</td>
+                <td>O</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/02_동굴.jpg" alt="02_동굴.jpg"></td>
+                <td>a woman standing in front of a cave with a railing</td>
+                <td>동굴과 종유석</td>
+                <td>X</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/03_돌고래.jpg" alt="03_돌고래.jpg"></td>
+                <td>a man is jumping into the air while a dolphin is performing</td>
+                <td>돌고래</td>
+                <td>O</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/04_수족관.jpg" alt="04_수족관.jpg"></td>
+                <td>a woman is looking at a large aquarium with fish</td>
+                <td>수족관, 고래</td>
+                <td>X</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/05_스시.jpg" alt="05_스시.jpg"></td>
+                <td>a plate of sushi with various types of fish and vegetables</td>
+                <td>스시</td>
+                <td>X</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/01_불꽃놀이.jpg" alt="01_불꽃놀이.jpg"></td>
+                <td>fireworks in the sky over a city at night</td>
+                <td>불꽃놀이</td>
+                <td>O</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/02_꽃밭.jpg" alt="02_꽃밭.jpg"></td>
+                <td>a woman standing in front of a field of flowers</td>
+                <td>꽃을 들고있는 행위, 꽃이 많은 장소</td>
+                <td>O</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/03_영화관.jpg" alt="03_영화관.jpg"></td>
+                <td>a person holding up a ticket in front of a screen</td>
+                <td>영화관</td>
+                <td>O</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/04_청첩장.jpg" alt="04_청첩장.jpg"></td>
+                <td>a group of people sitting at a table</td>
+                <td>단체 모임</td>
+                <td>O</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/05_막내.jpg" alt="05_막내.jpg"></td>
+                <td>a group of people sitting in a room</td>
+                <td>노래를 부르는 행위</td>
+                <td>X</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/01_차안.jpg" alt="01_차안.jpg"></td>
+                <td>a group of people in a car</td>
+                <td>차 안</td>
+                <td>O</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/02_패러글라이딩장소.jpg" alt="02_패러글라이딩장소.jpg"></td>
+                <td>a view of a river and mountains from a hill</td>
+                <td>산 위의 경치</td>
+                <td>O</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/03_유람선.jpg" alt="03_유람선.jpg"></td>
+                <td>two young men on a boat pointing at the camera</td>
+                <td>배 위</td>
+                <td>O</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/05_고스톱.jpg" alt="05_고스톱.jpg"></td>
+                <td>two people sitting on the floor with a blanket</td>
+                <td>두 명의 카드 놀이</td>
+                <td>X</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/01_에펠탑.jpg" alt="01_에펠탑.jpg"></td>
+                <td>the eiffel tower at night</td>
+                <td>야경의 에펠탑</td>
+                <td>O</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/02_베르사유궁전.jpg" alt="02_베르사유궁전.jpg"></td>
+                <td>a person standing in front of a golden gate</td>
+                <td>황금빛 대문</td>
+                <td>O</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/03_몽마르트사랑해벽.jpg" alt="03_몽마르트사랑해벽.jpg"></td>
+                <td>people are standing in front of a wall with a blue wall</td>
+                <td>파란 벽</td>
+                <td>O</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/04_몽마르트언덕.jpg" alt="04_몽마르트언덕.jpg"></td>
+                <td>a view of the city from the top of the eiffel tower</td>
+                <td>경치</td>
+                <td>O</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/05_프랑스피자.jpg" alt="05_프랑스피자.jpg"></td>
+                <td>two pizzas on plates with people sitting at a table</td>
+                <td>피자 2개</td>
+                <td>O</td>
+            </tr>
+            
+            <tr>
+                <td><img src="/data/ephemeral/home/juhyun/BOAZ_mini_project/data/all_imgs/06_프랑스디즈니랜드.jpg" alt="06_프랑스디즈니랜드.jpg"></td>
+                <td>disneyland paris, paris, paris, paris, paris, paris</td>
+                <td>디즈니랜드, 성</td>
+                <td>X</td>
+            </tr>
+            
+        </table>
+    </body>
+    </html>
+    

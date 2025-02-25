@@ -1,0 +1,42 @@
+﻿이미지 파일,BLIP-2 캡션(원본),BLIP-2 캡션(번역),키워드,수동 평가,BERTScore_Precision,BERTScore_Recall,BERTScore_F1
+01_눈 오는 날.jpg,a snowy scene with a bench and a building,"눈이 내리는 풍경, 벤치와 건물이 있는 모습.",눈,O,0.3311874270439148,0.5561458468437195,0.4151507019996643
+02_점심.jpg,a white plate with a sandwich and coffee,샌드위치와 커피가 담긴 흰색 접시,"샌드위치, 커피, 노트북",X,0.5896390676498413,0.6751658916473389,0.6295108199119568
+03_강의.jpg,a whiteboard with a diagram on it,diagram이 그려진 화이트보드,강의,X,0.39953184127807617,0.557244062423706,0.46538951992988586
+04_카페.jpg,a coffee cup with a spoon and spoon holder on a door,문에 있는 숟가락과 숟가락 받침이 있는 커피 컵,커피,O,0.35851937532424927,0.6407862901687622,0.45978784561157227
+05_저녁.jpg,a table with two glasses of beer and chopsticks,두 잔의 맥주와 젓가락이 놓인 테이블,맥주,O,0.3788372278213501,0.6608535647392273,0.4815969169139862
+01_비행기.jpg,a person sitting on an airplane with a bag,가방을 들고 비행기에서 앉아 있는 사람,"비행기, 앉아있다",O,0.5461710691452026,0.6319660544395447,0.5859447121620178
+02_놀이공원.jpg,a picture of a roller coaster with people on it,사람들이 탄 롤러코스터 사진,어트랙션(놀이기구),O,0.4954603314399719,0.5145570635795593,0.5048282146453857
+03_가챠.jpg,two people holding up three different colored balls,두 사람이 세 개의 다른 색깔의 공을 들고 있다.,가챠(랜덤뽑기..?),X,0.35714882612228394,0.33758336305618286,0.34709057211875916
+04_저녁.jpg,a tray of sushi and a beer on a table,테이블 위에 스시 한 접시와 맥주 한 잔.,초밥,O,0.3656415343284607,0.568259060382843,0.4449705183506012
+05_스티커사진.jpg,a sticker book with pictures of girls on it,소녀 그림 스티커 북,사진,O,0.518458366394043,0.5923267602920532,0.5529364347457886
+1st_img.jpg,a group of people sitting on a train,기차에 앉아 있는 사람들 그룹,"음식 관련 단어, 기차",X,0.43805503845214844,0.48765021562576294,0.461524099111557
+2nd_img.jpg,a large amusement ride,대형 놀이기구,놀이기구,O,0.8079980611801147,0.9025077819824219,0.8526419997215271
+3rd_img.jpg,a roller coaster ride at an amusement park,놀이공원의 롤러코스터 탑승,놀이기구에 타고 있는 사람,X,0.686237096786499,0.6122190356254578,0.6471183896064758
+4th_img.jpg,a group of young women posing for a picture in front of a roller coaster,롤러코스터 앞에서 사진을 찍고 있는 젊은 여성들 그룹.,놀이공원에서의 단체 사진,O,0.45585736632347107,0.5373648405075073,0.4932667016983032
+5th.jpg,a group of people sitting on a couch in a living room,거실의 소파에 앉아 있는 사람들 그룹,"숙소, 누워있는 모습",X,0.5563051700592041,0.5844480991363525,0.5700294971466064
+image1.jpg,a person taking a picture of a building,건물을 사진 찍는 사람,건물 앞을 걷는 모습,X,0.6899459362030029,0.6914899349212646,0.6907170414924622
+image2.jpg,a woman sitting at a desk with a laptop and a bag,여자가 책상에 앉아 노트북과 가방을 가지고 있다.,"연구실, 노트북, 가방",X,0.4605487585067749,0.5686213970184326,0.5089107155799866
+image3.jpg,a table with bowls of food and a spoon,음식이 담긴 그릇과 숟가락이 있는 테이블,"김밥, 라면",X,0.43233340978622437,0.5467935800552368,0.4828732907772064
+image4.jpg,a person sitting on a chair looking out a window,의자에 앉아 창밖을 바라보는 사람,"앉아있는 모습, 창밖 뷰",O,0.5910010933876038,0.5923924446105957,0.5916959643363953
+image5.jpg,two people sitting at a table with a laptop,노트북이 있는 테이블에 앉아 있는 두 사람.,"노트북, 공부하는 모습",X,0.457866907119751,0.5326576828956604,0.4924387037754059
+01_오키나와비행기.jpg,a view of the wing of an airplane from inside the plane,비행기 내부에서 본 날개 모습,비행기 안이라는 장소,O,0.5602704882621765,0.6061018705368042,0.5822857618331909
+02_동굴.jpg,a woman standing in front of a cave with a railing,난간이 있는 동굴 앞에 서 있는 여성,동굴과 종유석,X,0.4692103862762451,0.5419665575027466,0.5029709935188293
+03_돌고래.jpg,a man is jumping into the air while a dolphin is performing,한 남자가 공중으로 점프하고 있는 동안 돌고래가 공연을 하고 있습니다.,돌고래,O,0.31845980882644653,0.6273775100708008,0.42247119545936584
+04_수족관.jpg,a woman is looking at a large aquarium with fish,한 여성이 큰 수족관에서 물고기를 보고 있습니다.,"수족관, 고래",X,0.41094541549682617,0.5181103944778442,0.45834726095199585
+05_스시.jpg,a plate of sushi with various types of fish and vegetables,다양한 생선과 채소가 담긴 초밥 한 접시,스시,X,0.3738099932670593,0.5674123764038086,0.45069989562034607
+01_불꽃놀이.jpg,fireworks in the sky over a city at night,밤하늘에 도시 위로 피어나는 불꽃놀이,불꽃놀이,O,0.4605688452720642,0.8066461086273193,0.5863505005836487
+02_꽃밭.jpg,a woman standing in front of a field of flowers,꽃밭 앞에 서 있는 여성.,"꽃을 들고있는 행위, 꽃이 많은 장소",O,0.4928158223628998,0.4572320580482483,0.474357545375824
+03_영화관.jpg,a person holding up a ticket in front of a screen,화면 앞에서 티켓을 들고 있는 사람,영화관,O,0.36012256145477295,0.5241311192512512,0.4269169569015503
+04_청첩장.jpg,a group of people sitting at a table,테이블에 앉아 있는 사람들 그룹,단체 모임,O,0.42482513189315796,0.5517572164535522,0.48004212975502014
+05_막내.jpg,a group of people sitting in a room,방 안에 앉아 있는 사람들 그룹,노래를 부르는 행위,X,0.4957616329193115,0.5250571370124817,0.5099890232086182
+01_차안.jpg,a group of people in a car,차 안의 사람들 그룹,차 안,O,0.5574619770050049,0.6970176100730896,0.6194772720336914
+02_패러글라이딩장소.jpg,a view of a river and mountains from a hill,언덕에서 바라본 강과 산의 풍경,산 위의 경치,O,0.6442737579345703,0.7229697704315186,0.6813569664955139
+03_유람선.jpg,two young men on a boat pointing at the camera,배 위에서 카메라를 가리키고 있는 두 젊은 남자.,배 위,O,0.3250226378440857,0.6210294961929321,0.4267177879810333
+04_도담상봉.jpg,a person holding a cup of ice tea in front of a lake,호수 앞에서 아이스 티를 들고 있는 사람.,호수와 음료수,O,0.4102623462677002,0.5504875779151917,0.470141738653183
+05_고스톱.jpg,two people sitting on the floor with a blanket,바닥에 담요를 깔고 앉아 있는 두 사람.,두 명의 카드 놀이,X,0.39528128504753113,0.5725593566894531,0.46768441796302795
+01_에펠탑.jpg,the eiffel tower at night,밤의 에펠탑,야경의 에펠탑,O,0.9003750085830688,0.9003750085830688,0.9003750085830688
+02_베르사유궁전.jpg,a person standing in front of a golden gate,황금 문 앞에 서 있는 사람,황금빛 대문,O,0.3754115104675293,0.5415052175521851,0.44341492652893066
+03_몽마르트사랑해벽.jpg,people are standing in front of a wall with a blue wall,사람들이 파란 벽 앞에 서 있습니다.,파란 벽,O,0.48625680804252625,0.728819727897644,0.5833271145820618
+04_몽마르트언덕.jpg,a view of the city from the top of the eiffel tower,에펠탑 꼭대기에서 바라본 도시 풍경,경치,O,0.4181058406829834,0.6683970093727112,0.5144224166870117
+05_프랑스피자.jpg,two pizzas on plates with people sitting at a table,테이블에 앉아 있는 사람들과 함께 있는 두 개의 피자.,피자 2개,O,0.38249093294143677,0.5669423937797546,0.4567994773387909
+06_프랑스디즈니랜드.jpg,"disneyland paris, paris, paris, paris, paris, paris","디즈니랜드 파리, 파리, 파리, 파리, 파리, 파리","디즈니랜드, 성",X,0.5899287462234497,0.7082905769348145,0.6437139511108398
