@@ -53,10 +53,28 @@ pip install -r requirements.txt
 python main.py
 ```
 ### Evaluation
-1. `data/all_imgs` 폴더에 모든 사진 업로드
-2. `data/keyword.txt` 파일에 아래 형식으로 작성:
-    ```
-    이미지 파일 이름 : 캡션 / 키워드 / 정성평가(O/X)
-    ```
-    예시: `01_눈 오는 날.jpg : a snowy scene with a bench and a building / 눈 / O`
-3. 정성평가는 캡션과 키워드가 일치하는지 여부를 평가
+#### 1. 데이터 준비
+- `data/all_imgs/` 폴더에 테스트할 이미지 파일들을 위치시킵니다.
+- 현재는 예시 데이터만 포함되어 있으므로 실제 평가를 위해서는 사용자의 이미지를 추가해야 합니다.
+
+#### 2. 키워드 파일 작성
+- `data/keyword.txt` 파일에 다음 형식으로 작성:
+```
+[이미지명] : [생성된 캡션] / [키워드] / [평가(O/X)]
+```
+
+예시 데이터:
+```
+01_눈 오는 날.jpg : a snowy scene with a bench and a building / 눈 / O
+```
+- 현재 파일에는 예시 데이터만 포함되어 있으므로, 실제 평가를 위해서는 사용자의 데이터로 파일을 새로 작성해야 합니다.
+
+#### 3. 평가 실행
+```bash
+python run_eval.py
+```
+- 실행 시 정성평가 결과(HTML)와 BERTScore 평가 결과(CSV)가 output 폴더에 생성됩니다.
+
+#### 4. 평가 기준
+- O: 이미지와 캡션, 키워드가 적절히 매칭됨
+- X: 부적절한 매칭
