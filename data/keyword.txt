@@ -1,0 +1,41 @@
+01_눈 오는 날.jpg : a snowy scene with a bench and a building / 눈 / O
+02_점심.jpg : a white plate with a sandwich and coffee / 샌드위치, 커피, 노트북 / X
+03_강의.jpg : a whiteboard with a diagram on it / 강의 / X
+04_카페.jpg : a coffee cup with a spoon and spoon holder on a door / 커피 / O
+05_저녁.jpg : a table with two glasses of beer and chopsticks / 맥주 / O
+01_비행기.jpg : a person sitting on an airplane with a bag / 비행기, 앉아있다 / O
+02_놀이공원.jpg : a picture of a roller coaster with people on it / 어트랙션(놀이기구) / O
+03_가챠.jpg : two people holding up three different colored balls / 가챠(랜덤뽑기..?) / X
+04_저녁.jpg : a tray of sushi and a beer on a table / 초밥 / O
+05_스티커사진.jpg : a sticker book with pictures of girls on it / 사진 / O
+1st_img.jpg : a group of people sitting on a train / 음식 관련 단어, 기차 / X
+2nd_img.jpg : a large amusement ride / 놀이기구 / O
+3rd_img.jpg : a roller coaster ride at an amusement park / 놀이기구에 타고 있는 사람 / X
+4th_img.jpg : a group of young women posing for a picture in front of a roller coaster / 놀이공원에서의 단체 사진 / O
+5th.jpg : a group of people sitting on a couch in a living room / 숙소, 누워있는 모습 / X
+image1.jpg : a person taking a picture of a building / 건물 앞을 걷는 모습 / X
+image2.jpg : a woman sitting at a desk with a laptop and a bag / 연구실, 노트북, 가방 / X
+image3.jpg : a table with bowls of food and a spoon / 김밥, 라면 / X
+image4.jpg : a person sitting on a chair looking out a window / 앉아있는 모습, 창밖 뷰 / O
+image5.jpg : two people sitting at a table with a laptop / 노트북, 공부하는 모습 / X
+01_오키나와비행기.jpg : a view of the wing of an airplane from inside the plane / 비행기 안이라는 장소 / O
+02_동굴.jpg : a woman standing in front of a cave with a railing / 동굴과 종유석 / X
+03_돌고래.jpg : a man is jumping into the air while a dolphin is performing / 돌고래 / O
+04_수족관.jpg : a woman is looking at a large aquarium with fish / 수족관, 고래 / X
+05_스시.jpg : a plate of sushi with various types of fish and vegetables / 스시 / X
+01_불꽃놀이.jpg : fireworks in the sky over a city at night / 불꽃놀이 / O
+02_꽃밭.jpg : a woman standing in front of a field of flowers / 꽃을 들고있는 행위, 꽃이 많은 장소 / O
+03_영화관.jpg : a person holding up a ticket in front of a screen / 영화관 / O
+04_청첩장.jpg : a group of people sitting at a table / 단체 모임 / O
+05_막내.jpg : a group of people sitting in a room / 노래를 부르는 행위 / X
+01_차안.jpg : a group of people in a car / 차 안 / O
+02_패러글라이딩장소.jpg : a view of a river and mountains from a hill / 산 위의 경치 / O
+03_유람선.jpg : two young men on a boat pointing at the camera / 배 위 / O
+04_도담상봉.jpg : a person holding a cup of ice tea in front of a lake / 호수와 음료수 / O
+05_고스톱.jpg : two people sitting on the floor with a blanket / 두 명의 카드 놀이 / X
+01_에펠탑.jpg : the eiffel tower at night / 야경의 에펠탑 / O
+02_베르사유궁전.jpg : a person standing in front of a golden gate / 황금빛 대문 / O
+03_몽마르트사랑해벽.jpg : people are standing in front of a wall with a blue wall / 파란 벽 / O
+04_몽마르트언덕.jpg : a view of the city from the top of the eiffel tower / 경치 / O
+05_프랑스피자.jpg : two pizzas on plates with people sitting at a table / 피자 2개 / O
+06_프랑스디즈니랜드.jpg : disneyland paris, paris, paris, paris, paris, paris / 디즈니랜드, 성 / X
