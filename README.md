@@ -36,22 +36,23 @@
 <br/>
 
 ## ETCs
+
 ### 🛠 Installation & Usage
-- requirements.txt 파일에 필요한 라이브러리 버전 목록 작성
+```bash
+# 저장소 복제
+git clone https://github.com/BOAZ-bigdata/24_MiniProject_AutoDiaryProject.git
 
-#### 저장소 클론
-- git clone https://github.com/BOAZ-bigdata/24_MiniProject_AutoDiaryProject.git
+# 프로젝트 폴더로 이동
+cd 24_MiniProject_AutoDiaryProject/code
 
-#### 디렉토리 이동
-- cd 24_MiniProject_AutoDiaryProject/code
+# 필요한 패키지 설치
+pip install -r requirements.txt
 
-#### 필요한 패키지 설치
-- pip install -r requirements.txt
 
-#### 실행
-- python main.py
-
-#### Evaluation
+# 실행
+python main.py
+```
+### Evaluation
 1. `data/all_imgs` 폴더에 모든 사진 업로드
 2. `data/keyword.txt` 파일에 아래 형식으로 작성:
     ```
