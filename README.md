@@ -36,6 +36,7 @@
 <br/>
 
 ## ETCs
+- .env 파일에 OPENAI_API_KEY 입력
 
 ### 🛠 Installation & Usage
 ```bash
