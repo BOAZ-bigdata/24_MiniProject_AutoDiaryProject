@@ -67,7 +67,7 @@ python main.py
 ```
 01_눈 오는 날.jpg : a snowy scene with a bench and a building / 눈 / O
 ```
-- 수기기로 데이터를 입력해 주셔야 하는 점 양해 부탁드립니다.
+- 수기로 데이터를 입력해 주셔야 하는 점 양해 부탁드립니다.
 
 #### 3. 평가 실행
 ```bash
