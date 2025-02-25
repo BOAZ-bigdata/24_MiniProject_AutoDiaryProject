@@ -4,7 +4,7 @@ def main():
     try:
         # Streamlit 앱 실행
         print("Streamlit 앱을 실행하는 중...")
-        subprocess.run(["streamlit", "run", "code/blip_streamlit.py"], check=True)
+        subprocess.run(["streamlit", "run", "blip_streamlit.py"], check=True)
         
     except subprocess.CalledProcessError as e:
         print(f"오류 발생: {e}")
