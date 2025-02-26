@@ -52,6 +52,12 @@ pip install -r requirements.txt
 # 실행
 python main.py
 ```
+
+### main.py로 실행되지 않는 파일 설명
+- `gpt_img_kw.py`: 이미지와 키워드 정보를 GPT 모델에 입력하여 일기 생성
+- `gpt_kw.py`: 키워드 정보만을 GPT 모델에 입력하여 일기 생성
+- `gpt_cap.py`: BLIP-2가 생성한 캡션만을 GPT 모델에 입력하여 일기 생성
+
 ### Evaluation
 #### 1. 데이터 준비
 - `data/all_imgs/` 폴더에 테스트할 이미지 파일들을 위치시킵니다.
@@ -78,3 +84,8 @@ python run_eval.py
 #### 4. 평가 기준
 - O: 이미지와 캡션, 키워드가 적절히 매칭됨
 - X: 부적절한 매칭
+
+### 출력 결과 예시
+- [프랑스 여행 일기 예시](outputs/(BLIP+GPT)_주현_프랑스.pdf)
+
+> 💡 **참고**: 위 예시들은 실제 사용자의 사진과 키워드를 바탕으로 생성된 일기입니다.
