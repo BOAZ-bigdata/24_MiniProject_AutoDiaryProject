@@ -1,2 +1,2 @@
 ﻿이미지 파일,BLIP-2 캡션(원본),BLIP-2 캡션(번역),키워드,수동 평가,BERTScore_Precision,BERTScore_Recall,BERTScore_F1
-01_눈 오는 날.jpg,a snowy scene with a bench and a building,"눈이 내리는 장면, 벤치와 건물이 있는 풍경.",눈,O,0.3346707224845886,0.5539507865905762,0.4172555208206177
+01_눈 오는 날.jpg,a snowy scene with a bench and a building,"눈이 내리는 풍경, 벤치와 건물이 있는 모습.",눈,O,0.3311874270439148,0.5561457872390747,0.4151506721973419

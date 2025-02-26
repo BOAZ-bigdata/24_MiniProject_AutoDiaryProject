@@ -118,7 +118,7 @@ def main():
     """
 
     # HTML 파일로 저장 (출력 경로 수정)
-    output_file = output_dir / "image_keywords.html"
+    output_file = output_dir / "quan_eval.html"
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write(html_content)
 
