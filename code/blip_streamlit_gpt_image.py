@@ -11,6 +11,9 @@ import datetime
 # 환경 변수 로드
 dotenv.load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+today = datetime.date.today()
+weekday = ["월요일", "화요일", "수요일", "목요일", "금요일", "토요일", "일요일"]
+formatted_date = f"{today.year}년 {today.month}월 {today.day}일, {weekday[today.weekday()]}"
 
 # 페이지 설정
 st.set_page_config(page_title="사진 일기 생성기", layout="wide")
@@ -54,7 +57,7 @@ if uploaded_files:
         images_info.append({
             "file_name": uploaded_file.name,
             "base64_image": base64_image,
-            "person": person_name if person_name else "친구들",
+            "person": person_name if person_name else "",
             "location": location if location else "어딘가",
             "keywords": keywords if keywords else ""
         })
@@ -118,10 +121,7 @@ if uploaded_files:
             )
             
             # 결과 표시
-            today = datetime.date.today()
-            weekday = ["월요일", "화요일", "수요일", "목요일", "금요일", "토요일", "일요일"]
-            formatted_date = f"{today.year}년 {today.month}월 {today.day}일, {weekday[today.weekday()]}"
             st.header(f"📅 {formatted_date}")
             st.write(response.choices[0].message.content)
 else:
-    st.info("위의 업로더를 통해 사진을 선택해주세요.") 
+    st.info("위의 업로더를 통해 사진을 선택해주세요.")
